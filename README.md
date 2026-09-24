@@ -1,16 +1,13 @@
-# Help Sonya Finkovskaya
+# Sonya Finkovskaya fundraising page
 
-Upload the entire folder contents to GitHub Pages.
+GitHub Pages-ready static website.
 
-Files:
-- index.html
-- style.css
-- images/sonya.jpg
-- video/sonya-muted.mp4
+## Important
+Upload the **contents of this folder** to the root of your GitHub Pages repository, so the structure is:
 
-The page includes the verified campaign details supplied by the campaign owner:
-Account holder: Rostyslav Doskochynskyi
-IBAN: DE83370190001011598032
-TRON/TRC-20: TR2d7UdwBjuqZaGHr7ioa3BdLsAep3jo8r
+- `index.html`
+- `style.css`
+- `images/sonya.jpg`
+- `video/sonya-muted.mp4`
 
-Before public promotion, verify that the beneficiary details and campaign statements are accurate and that you have permission to publish the photo/video.
+Do not upload only `index.html`, and do not leave the files nested inside another folder.
