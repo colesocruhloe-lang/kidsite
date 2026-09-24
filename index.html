@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Help Sonya Finkovskaya — Give Her a Chance to Keep Fighting</title>
+<meta name="description" content="A family fundraising page for Sonya Finkovskaya's cancer treatment and care.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+<nav><div class="logo">Help Sonya</div><a href="#donate" class="small-donate">Donate</a></nav>
+<div class="hero-grid">
+<div class="hero-copy">
+<div class="tag">PLEASE HELP OUR FAMILY</div>
+<h1>Sonya is fighting cancer. We are fighting beside her.</h1>
+<p class="lead">Every day matters to our family. We are asking kind people to stand with Sonya and help us cover the costs of her treatment, care and the difficult road ahead.</p>
+<a href="#donate" class="donate">Donate to Sonya</a>
+</div>
+<div class="hero-photo"><img src="images/sonya.jpg" alt="Sonya Finkovskaya"></div>
+</div>
+</header>
+<main>
+<section class="story"><div class="story-inner"><div>
+<div class="tag">SONYA'S STORY</div><h2>We don't want to ask. We have to.</h2>
+<p>Sonya is a child who should be thinking about ordinary things: school, friends, laughter and the future. Instead, our family is facing cancer and the fear and uncertainty that come with it.</p>
+<p>We are doing everything we can to support her. Treatment, care, travel, medicines and everyday expenses can become overwhelming, especially when a family is already carrying the emotional weight of a serious illness.</p>
+<p>That is why we are reaching out. If you can donate, even a small amount can help. If you cannot donate, sharing this page with someone else can still make a real difference.</p>
+<p><strong>We are not asking for pity. We are asking for a chance to keep helping Sonya through treatment.</strong></p>
+</div>
+<div class="video-card"><video controls playsinline muted preload="metadata" poster="images/sonya.jpg"><source src="video/sonya-muted.mp4" type="video/mp4"></video><p class="caption">Video shared by the family. Audio has been removed for this website version.</p></div>
+</div></section>
+<section class="appeal"><div class="appeal-inner">
+<div class="tag">A MESSAGE FROM OUR FAMILY</div><h2>Please don't scroll past without reading.</h2>
+<p>We know there are many people asking for help online. We understand that trust matters. We want this page to be simple and transparent: the donation details below are the details provided by Sonya's family for this campaign.</p>
+<p>We are asking for help with the financial burden connected with Sonya's cancer treatment and care. We will be grateful for every legitimate donation and every share.</p>
+<p class="big">If you can help Sonya today, please do.</p>
+</div></section>
+<section id="donate" class="donate-section"><div class="donate-inner">
+<div class="tag">DONATE</div><h2>Help Sonya keep fighting</h2>
+<p>Choose one of the donation methods below. Please check every character carefully before sending money or cryptocurrency.</p>
+<div class="payment-grid">
+<article class="payment"><h3>Bank transfer</h3><div class="label">IBAN</div><div class="copy-row"><code>DE83370190001011598032</code><button data-copy="DE83370190001011598032">Copy</button></div><p class="small">Please confirm the beneficiary name with the family before making a transfer.</p></article>
+<article class="payment"><h3>TRON / TRC-20</h3><div class="label">Wallet address</div><div class="copy-row"><code>TR2d7UdwBjuqZaGHr7ioa3BdLsAep3jo8r</code><button data-copy="TR2d7UdwBjuqZaGHr7ioa3BdLsAep3jo8r">Copy</button></div><p class="small">Network: <strong>TRON (TRC-20)</strong>. Do not send through another network.</p></article>
+</div>
+<div class="share-box"><h3>If you can't donate</h3><p>Sharing this page can help us reach someone who can. Thank you for taking the time to read Sonya's story.</p><button id="share">Share this page</button></div>
+<div class="transparency"><h3>Transparency</h3><p>This page is intended to present the family's appeal and the donation details supplied for the campaign. Before publishing it publicly, the family should verify the beneficiary, bank details, wallet address and the medical statement on this page.</p></div>
+</div></section>
+</main>
+<footer><p>Help Sonya Finkovskaya • A family fundraising page</p></footer>
+<script>
+document.querySelectorAll("[data-copy]").forEach(b=>b.addEventListener("click",async()=>{try{await navigator.clipboard.writeText(b.dataset.copy);let x=b.textContent;b.textContent="Copied";setTimeout(()=>b.textContent=x,1500)}catch{alert("Please copy the address manually.")}}));
+document.getElementById("share").addEventListener("click",async()=>{if(navigator.share){await navigator.share({title:document.title,text:"Please read Sonya's story and consider sharing.",url:location.href})}else{await navigator.clipboard.writeText(location.href);alert("Page link copied.")}});
+</script>
+</body></html>
