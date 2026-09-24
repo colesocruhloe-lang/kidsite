@@ -1,13 +1,14 @@
-# Sonya Finkovskaya fundraising page
+# Help Sofya (Sonya) Finkovskaya
 
-GitHub Pages-ready static website.
+GitHub Pages-ready fundraising site.
 
-## Important
-Upload the **contents of this folder** to the root of your GitHub Pages repository, so the structure is:
+Upload the contents of this folder to the repository root. The site uses only relative local paths for the main photo and video.
 
-- `index.html`
-- `style.css`
-- `images/sonya.jpg`
-- `video/sonya-muted.mp4`
+Files:
+- index.html
+- style.css
+- images/sonya.png
+- video/sonya-muted.mp4
+- video/sonya-original.mp4
 
-Do not upload only `index.html`, and do not leave the files nested inside another folder.
+For GitHub Pages, make sure `index.html` is in the repository root and the `images` and `video` folders are uploaded too.
