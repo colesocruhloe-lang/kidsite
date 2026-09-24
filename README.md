@@ -1,6 +1,16 @@
 # Help Sonya Finkovskaya
-Static fundraising landing page for GitHub Pages.
 
-Includes the supplied photo, a silent version of the supplied video, English campaign copy, Donate section, IBAN and TRON/TRC-20 copy buttons, and a share button.
+Upload the entire folder contents to GitHub Pages.
 
-Before publishing publicly, verify the beneficiary, payment details, the cancer statement, and permission to publish the child's photo/video. Keep medical and financial information to the minimum necessary.
+Files:
+- index.html
+- style.css
+- images/sonya.jpg
+- video/sonya-muted.mp4
+
+The page includes the verified campaign details supplied by the campaign owner:
+Account holder: Rostyslav Doskochynskyi
+IBAN: DE83370190001011598032
+TRON/TRC-20: TR2d7UdwBjuqZaGHr7ioa3BdLsAep3jo8r
+
+Before public promotion, verify that the beneficiary details and campaign statements are accurate and that you have permission to publish the photo/video.
