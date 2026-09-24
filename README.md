@@ -1,14 +1,14 @@
-# Sofya (Sonya) Finkovskaya — Historical Story Archive
+# Help Sofya (Sonya) Finkovskaya
 
-A static GitHub Pages site presenting a historical story and links to the original public publications about Sofya (Sonya) Finkovskaya.
+GitHub Pages-ready fundraising site.
 
-## Files
-- `index.html`
-- `style.css`
+Upload the contents of this folder to the repository root. The site uses only relative local paths for the main photo and video.
 
-No locally uploaded photos or videos are included in this version.
+Files:
+- index.html
+- style.css
+- images/sonya.png
+- video/sonya-muted.mp4
+- video/sonya-original.mp4
 
-## Sources
-- 5-TV: https://www.5-tv.ru/ddd/kids/31/
-- Podari Zhizn: https://podari-zhizn.ru/ru/publications/28852
-- Podari Zhizn (2021): https://podari-zhizn.ru/ru/publications/ya-ne-dumau-o-plohom
+For GitHub Pages, make sure `index.html` is in the repository root and the `images` and `video` folders are uploaded too.
